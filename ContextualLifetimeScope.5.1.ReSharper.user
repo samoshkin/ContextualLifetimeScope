@@ -1,0 +1,476 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/f:LifetimeScope.cs" caret="156" fromTop="6" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/f:LifetimeScopeStore.cs" caret="301" fromTop="11" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestContextualScopeLifestyle.cs" caret="13364" fromTop="8" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/f:PerLifetimeScopeLifestyle.cs" caret="318" fromTop="11" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="324" fromTop="13" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="6662" fromTop="29" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="6662" fromTop="23" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="6662" fromTop="10" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="6662" fromTop="17" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="6662" fromTop="16" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="6662" fromTop="25" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="6662" fromTop="19" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="6662" fromTop="19" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="6662" fromTop="20" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="6662" fromTop="22" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="6662" fromTop="12" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="6662" fromTop="23" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="6662" fromTop="20" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="6662" fromTop="22" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="6662" fromTop="4" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="6662" fromTop="9" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="6662" fromTop="19" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="6662" fromTop="6" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="6662" fromTop="22" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="6662" fromTop="16" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="6662" fromTop="17" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="4481" fromTop="9" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="4667" fromTop="18" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="4661" fromTop="14" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="4624" fromTop="15" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="4175" fromTop="5" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="3545" fromTop="16" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="3827" fromTop="17" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="3545" fromTop="19" />
+      <File id="966975E8-5431-4354-B9F4-3F72C4073143/d:Tests/f:TestAutofacBehavior.cs" caret="3415" fromTop="24" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.9\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="37" />
+      <Item value="void" priority="13" />
+      <Item value="new" priority="29" />
+      <Item value="Autofac" priority="0" />
+      <Item value="var" priority="44" />
+      <Item value="containerBuilder" priority="10" />
+      <Item value="ISimpleService`0" priority="18" />
+      <Item value="c" priority="3" />
+      <Item value="SimpleServiceImpl`0" priority="10" />
+      <Item value="CompositeServiceImpl`0" priority="5" />
+      <Item value="ICompositeService`0" priority="11" />
+      <Item value="container" priority="31" />
+      <Item value="using" priority="9" />
+      <Item value="lifetime" priority="3" />
+      <Item value="AssemblyLoadEventArgs`0" priority="1" />
+      <Item value="compositeService" priority="1" />
+      <Item value="simpleService2" priority="1" />
+      <Item value="Assert`0" priority="5" />
+      <Item value="compositeService3" priority="0" />
+      <Item value="compositeService2" priority="0" />
+      <Item value="Exception`0" priority="0" />
+      <Item value="compositeService1" priority="0" />
+      <Item value="simpleService1" priority="0" />
+      <Item value="class" priority="10" />
+      <Item value="ctor" priority="7" />
+      <Item value="private" priority="14" />
+      <Item value="compService" priority="4" />
+      <Item value="_compService" priority="1" />
+      <Item value="prop" priority="1" />
+      <Item value="SimpleService" priority="3" />
+      <Item value="simpleService" priority="1" />
+      <Item value="root" priority="5" />
+      <Item value="compServ1" priority="2" />
+      <Item value="compServ2" priority="0" />
+      <Item value="cw" priority="8" />
+      <Item value="_algorithm" priority="3" />
+      <Item value="IPackingAlgorithm`0" priority="2" />
+      <Item value="postalService" priority="0" />
+      <Item value="IPostalService`0" priority="2" />
+      <Item value="ShippingMethodCapabilities`0" priority="3" />
+      <Item value="_shippingMethodCapabilities" priority="2" />
+      <Item value="FedexPostalService`0" priority="0" />
+      <Item value="PackagingItemTracker" priority="0" />
+      <Item value="return" priority="7" />
+      <Item value="throw" priority="3" />
+      <Item value="NotImplementedException" priority="2" />
+      <Item value="Order`0" priority="2" />
+      <Item value="Client`0" priority="4" />
+      <Item value="PackagingRuleProvider`0" priority="1" />
+      <Item value="if" priority="10" />
+      <Item value="ItemInfoProvider" priority="0" />
+      <Item value="client" priority="3" />
+      <Item value="rules" priority="0" />
+      <Item value="packagingRuleProvider" priority="1" />
+      <Item value="_itemPackers" priority="1" />
+      <Item value="else" priority="3" />
+      <Item value="PackagingCreator`0" priority="0" />
+      <Item value="Mocker`0" priority="0" />
+      <Item value="packagingRules" priority="2" />
+      <Item value="packagingCreator" priority="0" />
+      <Item value="OperationCanceledException`0" priority="0" />
+      <Item value="pc" priority="0" />
+      <Item value="WeightLimitedPackingAlgorithm`0" priority="0" />
+      <Item value="weightCalculator" priority="1" />
+      <Item value="order" priority="0" />
+      <Item value="weight" priority="0" />
+      <Item value="package" priority="0" />
+      <Item value="IServiceProvider`0" priority="0" />
+      <Item value="algorithm" priority="0" />
+      <Item value="PackagingItemTracker`0" priority="1" />
+      <Item value="itemTracker" priority="0" />
+      <Item value="shipingCapabilities" priority="0" />
+      <Item value="_itemTracker" priority="1" />
+      <Item value="TearDownAttribute`0" priority="2" />
+      <Item value="_container" priority="2" />
+      <Item value="WindsorContainer" priority="0" />
+      <Item value="interface" priority="1" />
+      <Item value="IServiceLocator`0" priority="1" />
+      <Item value="Dictionary" priority="0" />
+      <Item value="object" priority="11" />
+      <Item value="ILogicalThreadAffinative`0" priority="0" />
+      <Item value="dict" priority="0" />
+      <Item value="lock" priority="2" />
+      <Item value="GetState`0" priority="0" />
+      <Item value="null" priority="2" />
+      <Item value="InvalidOperationException`0" priority="0" />
+      <Item value="String`0" priority="0" />
+      <Item value="Context" priority="0" />
+      <Item value="bool" priority="4" />
+      <Item value="isOpened" priority="3" />
+      <Item value="shouldBeOpened" priority="2" />
+      <Item value="opened" priority="0" />
+      <Item value="getStateInfo" priority="0" />
+      <Item value="true" priority="2" />
+      <Item value="false" priority="0" />
+      <Item value="Func" priority="1" />
+      <Item value="GetScopeState`0" priority="0" />
+      <Item value="LogicalThreadAffinativeDictionary`0" priority="4" />
+      <Item value="as" priority="1" />
+      <Item value="out" priority="3" />
+      <Item value="state" priority="12" />
+      <Item value="VerifyScopeState`0" priority="2" />
+      <Item value="VerifyScopeOpenness`0" priority="0" />
+      <Item value="IDictionary`0" priority="0" />
+      <Item value="key" priority="4" />
+      <Item value="value" priority="5" />
+      <Item value="Store" priority="1" />
+      <Item value="foreach" priority="4" />
+      <Item value="IDisposable`0" priority="2" />
+      <Item value="item" priority="0" />
+      <Item value="LifetimeScope" priority="1" />
+      <Item value="TContext`0" priority="1" />
+      <Item value="this" priority="0" />
+      <Item value="ILifestyleManager`0" priority="0" />
+      <Item value="LifestyleManager" priority="1" />
+      <Item value="ComponentInstance`0" priority="0" />
+      <Item value="Instance" priority="1" />
+      <Item value="instance" priority="1" />
+      <Item value="lifestyleManager" priority="0" />
+      <Item value="TKey`0" priority="1" />
+      <Item value="TValue`0" priority="5" />
+      <Item value="default" priority="1" />
+      <Item value="struct" priority="0" />
+      <Item value="store" priority="1" />
+      <Item value="int" priority="4" />
+      <Item value="Test" priority="2" />
+      <Item value="service" priority="4" />
+      <Item value="override" priority="0" />
+      <Item value="service1" priority="5" />
+      <Item value="service2" priority="0" />
+      <Item value="simpleServiceImpl" priority="2" />
+      <Item value="compositeServiceImpl" priority="1" />
+      <Item value="NoTrackingReleasePolicy`0" priority="0" />
+      <Item value="TimesDisposed" priority="0" />
+      <Item value="Semaphore`0" priority="0" />
+      <Item value="fault" priority="0" />
+      <Item value="ReferenceEquals`0" priority="0" />
+      <Item value="instance1" priority="0" />
+      <Item value="instance2" priority="0" />
+      <Item value="simpleInstance1" priority="0" />
+      <Item value="simpleInstance2" priority="0" />
+      <Item value="compositeInstance" priority="0" />
+      <Item value="WindsorContainer`0" priority="0" />
+      <Item value="FileAssert`0" priority="0" />
+      <Item value="sto_let" priority="0" />
+      <Item value="Open" priority="0" />
+      <Item value="file" priority="4" />
+      <Item value="ASCII" priority="0" />
+      <Item value="File`0" priority="2" />
+      <Item value="Create" priority="0" />
+      <Item value="convertedFile" priority="2" />
+      <Item value="Encoding`0" priority="12" />
+      <Item value="byte" priority="1" />
+      <Item value="bytes" priority="1" />
+      <Item value="Length" priority="0" />
+      <Item value="MemoryStream`0" priority="0" />
+      <Item value="str" priority="0" />
+      <Item value="srcFile" priority="0" />
+      <Item value="srcBytes" priority="4" />
+      <Item value="decodedText" priority="3" />
+      <Item value="EndOfStreamException`0" priority="0" />
+      <Item value="encoding" priority="1" />
+      <Item value="encodingInfo" priority="2" />
+      <Item value="text" priority="13" />
+      <Item value="while" priority="0" />
+      <Item value="Environment`0" priority="3" />
+      <Item value="ValuesAttribute`0" priority="1" />
+      <Item value="StringBuilder`0" priority="1" />
+      <Item value="newLineIndex" priority="2" />
+      <Item value="TextMessageWriter`0" priority="0" />
+      <Item value="rebuitText" priority="1" />
+      <Item value="for" priority="0" />
+      <Item value="i" priority="2" />
+      <Item value="char" priority="2" />
+      <Item value="rebuiltText" priority="5" />
+      <Item value="newLinePoint" priority="10" />
+      <Item value="lastPoint" priority="6" />
+      <Item value="endOfNewLine" priority="3" />
+      <Item value="break" priority="1" />
+      <Item value="IndexOutOfRangeException`0" priority="1" />
+      <Item value="index" priority="0" />
+      <Item value="try" priority="0" />
+      <Item value="catch" priority="0" />
+      <Item value="ArgumentOutOfRangeException`0" priority="0" />
+      <Item value="finally" priority="0" />
+      <Item value="Service" priority="0" />
+      <Item value="Container" priority="0" />
+      <Item value="ISimpleContainerService`0" priority="0" />
+      <Item value="SimpleContainerService`0" priority="0" />
+      <Item value="typeof" priority="2" />
+      <Item value="Root`0" priority="1" />
+      <Item value="IComponentContext`0" priority="3" />
+      <Item value="context" priority="0" />
+      <Item value="ContextBoundObject`0" priority="0" />
+      <Item value="ServiceLocator`0" priority="10" />
+      <Item value="locator" priority="3" />
+      <Item value="ServiceCreateByLocator" priority="0" />
+      <Item value="scope" priority="0" />
+      <Item value="IComponentRegistration`0" priority="1" />
+      <Item value="ContainerBuilder`0" priority="1" />
+      <Item value="cb2" priority="3" />
+      <Item value="Type`0" priority="0" />
+      <Item value="Service`0" priority="0" />
+      <Item value="ResolveServiceLocatorSource`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Autofac.ContainerBuilder">
+      <Item value="RegisterDecorator`1" priority="0" />
+      <Item value="Register`1" priority="5" />
+      <Item value="RegisterType`1" priority="2" />
+      <Item value="Build`0" priority="3" />
+      <Item value="RegisterCallback`0" priority="1" />
+      <Item value="RegisterInstance`1" priority="1" />
+      <Item value="RegisterComponent`0" priority="1" />
+      <Item value="Update`0" priority="1" />
+      <Item value="RegisterSource`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Autofac.Builder.IRegistrationBuilder`3">
+      <Item value="As`1" priority="1" />
+      <Item value="InstancePerDependency`0" priority="7" />
+      <Item value="InstancePerLifetimeScope`0" priority="5" />
+      <Item value="InstancePerMatchingLifetimeScope`0" priority="3" />
+      <Item value="SingleInstance`0" priority="4" />
+      <Item value="ExternallyOwned`0" priority="2" />
+      <Item value="OnPreparing`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Autofac.IContainer">
+      <Item value="Resolve`1" priority="1" />
+      <Item value="BeginLifetimeScope`0" priority="3" />
+      <Item value="ResolveComponent`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Autofac.ILifetimeScope">
+      <Item value="Resolve`1" priority="0" />
+      <Item value="ResolveComponent`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="AreEqual`0" priority="9" />
+      <Item value="AreNotEqual`0" priority="5" />
+      <Item value="Throws`0" priority="0" />
+      <Item value="IsFalse`0" priority="0" />
+      <Item value="IsTrue`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ContextualLifetimeScope.Tests.ICompositeService">
+      <Item value="SimpleService" priority="8" />
+      <Item value="Container" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Autofac.Features.OwnedInstances.Owned`1">
+      <Item value="Value" priority="2" />
+      <Item value="Dispose`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ContextualLifetimeScope.Tests.Root">
+      <Item value="SimpleService" priority="0" />
+      <Item value="DoSomething`0" priority="3" />
+      <Item value="ServiceCreateByLocator" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Add`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rhino.Mocks.MockRepository">
+      <Item value="GenerateMock`1" priority="1" />
+      <Item value="GenerateStrictMock`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PackagingRuleProvider">
+      <Item value="Stub`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.Interfaces.IMethodOptions`1">
+      <Item value="Return`0" priority="0" />
+      <Item value="Repeat" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IPackingAlgorithm">
+      <Item value="PackOrder`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Castle.Windsor.IWindsorContainer">
+      <Item value="Register`0" priority="0" />
+      <Item value="Resolve`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IServiceLocator">
+      <Item value="GetHashCode`0" priority="0" />
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="FullName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ContextualLifetimeScope.LogicalThreadAffinativeDictionary">
+      <Item value="ContainsKey`0" priority="0" />
+      <Item value="Add`0" priority="0" />
+      <Item value="Clear`0" priority="1" />
+      <Item value="Values" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ContextualLifetimeScope.LifetimeScopeStore">
+      <Item value="OpenScope`0" priority="1" />
+      <Item value="CloseScope`0" priority="0" />
+      <Item value="GetOrAdd`0" priority="0" />
+      <Item value="GetOrAdd`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IDisposable">
+      <Item value="Dispose`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ContextualLifetimeScope.LifetimeScope`1">
+      <Item value="Store" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Castle.MicroKernel.ILifestyleManager">
+      <Item value="Dispose`0" priority="0" />
+      <Item value="Release`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ContextualLifetimeScope.PerContextualScopeLifestyle`1+ComponentInstance">
+      <Item value="Instance" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ContextualLifetimeScope.Tests.ISimpleService">
+      <Item value="Dispose`0" priority="1" />
+      <Item value="VerifyAllExpectations`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Castle.Windsor.WindsorContainer">
+      <Item value="Release`0" priority="4" />
+      <Item value="Kernel" priority="1" />
+      <Item value="Resolve`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Castle.MicroKernel.Registration.ComponentRegistration`1">
+      <Item value="ImplementedBy`1" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Castle.MicroKernel.Registration.Lifestyle.LifestyleGroup`1">
+      <Item value="Transient" priority="4" />
+      <Item value="Singleton" priority="2" />
+      <Item value="PerThread" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Castle.MicroKernel.IKernel">
+      <Item value="ReleaseComponent`0" priority="0" />
+      <Item value="ReleasePolicy" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.Interfaces.IRepeat`1">
+      <Item value="Once`0" priority="1" />
+      <Item value="Twice`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ContextualLifetimeScope.Tests.SimpleServiceImpl">
+      <Item value="TimesDisposed" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.InvalidOperationException">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ContextualLifetimeScope.LifetimeScopeStore+LogicalThreadAffinativeDictionary">
+      <Item value="Remove`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="Open`0" priority="1" />
+      <Item value="ReadAllBytes`0" priority="0" />
+      <Item value="WriteAllBytes`0" priority="0" />
+      <Item value="WriteAllText`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamReader">
+      <Item value="ReadToEnd`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.Encoding">
+      <Item value="UTF8" priority="2" />
+      <Item value="Convert`0" priority="0" />
+      <Item value="ASCII" priority="2" />
+      <Item value="GetEncodings`0" priority="3" />
+      <Item value="GetEncoding`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.FileStream">
+      <Item value="Read`0" priority="1" />
+      <Item value="Length" priority="0" />
+      <Item value="Write`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.Encoding">
+      <Item value="GetString`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.EncodingInfo">
+      <Item value="GetHashCode`0" priority="0" />
+      <Item value="GetEncoding`0" priority="1" />
+      <Item value="DisplayName" priority="1" />
+      <Item value="CodePage" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="IndexOf`0" priority="2" />
+      <Item value="Substring`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment">
+      <Item value="NewLine" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Char">
+      <Item value="IsWhiteSpace`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="Indexer" priority="0" />
+      <Item value="Append`0" priority="3" />
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Linq.Enumerable">
+      <Item value="Range`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="All`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ContextualLifetimeScope.Tests.ISimpleContainerService">
+      <Item value="Service" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Autofac.IComponentContext">
+      <Item value="Resolve`1" priority="1" />
+      <Item value="ComponentRegistry" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ContextualLifetimeScope.Tests.ServiceLocator">
+      <Item value="ResolveService`1" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ContextualLifetimeScope.Tests.CompositeServiceImpl">
+      <Item value="ServiceCreateByLocator" priority="1" />
+      <Item value="SimpleService" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Autofac.Core.TypedService">
+      <Item value="ServiceType" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
