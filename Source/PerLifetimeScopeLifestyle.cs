@@ -1,5 +1,4 @@
 ﻿using System;
-using Castle.MicroKernel;
 using Castle.MicroKernel.Context;
 using Castle.MicroKernel.Lifestyle;
 

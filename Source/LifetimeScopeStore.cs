@@ -7,7 +7,7 @@ namespace ContextualLifetimeScope
 {
 	public class LifetimeScopeStore
 	{
-private class LogicalThreadAffinativeDictionary : Dictionary<object, object>, ILogicalThreadAffinative
+		private class LogicalThreadAffinativeDictionary : Dictionary<object, object>, ILogicalThreadAffinative
 		{ }
 
 		private readonly string _dataSlotKey;

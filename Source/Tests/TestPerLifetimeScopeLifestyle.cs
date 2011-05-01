@@ -6,12 +6,11 @@ using Castle.MicroKernel.Registration;
 using Castle.MicroKernel.Releasers;
 using Castle.Windsor;
 using NUnit.Framework;
-using Rhino.Mocks;
 
 namespace ContextualLifetimeScope.Tests
 {
 	[TestFixture]
-	public class TestContextualScopeLifestyle
+	public class TestPerLifetimeScopeLifestyle
 	{
 		[Test]
 		public void Should_resolve_dependency_in_opened_scope()
@@ -105,22 +104,22 @@ namespace ContextualLifetimeScope.Tests
 			Assert.AreEqual(1, service.TimesDisposed);	
 		}
 
-[Test]
-public void When_resolving_same_service_in_same_scope_several_times_should_return_same_component()
-{
-	var container = new WindsorContainer();
-	container.Register(Component
-		.For<ISimpleService>()
-		.ImplementedBy<SimpleServiceImpl>()
-		.LifeStyle.Custom<PerLifetimeScopeLifestyle<string>>());
+		[Test]
+		public void When_resolving_same_service_in_same_scope_several_times_should_return_the_same_component()
+		{
+			var container = new WindsorContainer();
+			container.Register(Component
+				.For<ISimpleService>()
+				.ImplementedBy<SimpleServiceImpl>()
+				.LifeStyle.Custom<PerLifetimeScopeLifestyle<string>>());
 
-	using (new LifetimeScope<string>())
-	{
-		var service1 = container.Resolve<ISimpleService>();
-		var service2 = container.Resolve<ISimpleService>();
-		Assert.AreEqual(service1, service2);
-	}
-}
+			using (new LifetimeScope<string>())
+			{
+				var service1 = container.Resolve<ISimpleService>();
+				var service2 = container.Resolve<ISimpleService>();
+				Assert.AreEqual(service1, service2);
+			}
+		}
 
 		[Test]
 		public void When_resolving_same_service_in_different_scope_several_times_should_return_different_components()
@@ -158,7 +157,6 @@ public void When_resolving_same_service_in_same_scope_several_times_should_retur
 				"Dependency could be resolved only when 'String' scope is opened.");
 		}
 
-		//TODO: exception message assertion does not work
 		[Test]
 		public void Should_fail_to_open_nested_scope_of_same_context()
 		{
@@ -172,7 +170,7 @@ public void When_resolving_same_service_in_same_scope_several_times_should_retur
 		}
 
 		[Test]
-		public void If_service_in_scope_have_dependecy_to_service_which_is_out_of_scope_container_should_wire_it()
+		public void If_service_in_scope_has_dependecy_to_service_which_is_out_of_scope_container_should_wire_it()
 		{
 			var container = new WindsorContainer();
 			container.Register(Component
@@ -193,7 +191,7 @@ public void When_resolving_same_service_in_same_scope_several_times_should_retur
 		}
 
 		[Test]
-		public void If_service_in_scope_have_dependecy_to_service_which_is_in_outer_scope_container_should_wire_it()
+		public void If_service_in_scope_has_dependecy_to_service_which_is_in_outer_scope_container_should_wire_it()
 		{
 			var container = new WindsorContainer();
 			container.Register(Component
@@ -217,7 +215,7 @@ public void When_resolving_same_service_in_same_scope_several_times_should_retur
 		}
 
 		[Test]
-		public void If_service_in_scope_have_dependecy_to_service_which_is_in_another_not_opened_contextual_scope_should_fail_to_wire_it()
+		public void If_service_in_scope_has_dependecy_to_service_which_is_in_another_not_opened_contextual_scope_should_fail_to_wire_it()
 		{
 			var container = new WindsorContainer();
 			container.Register(Component
@@ -238,7 +236,7 @@ public void When_resolving_same_service_in_same_scope_several_times_should_retur
 		}
 
 		[Test]
-		public void Scopes_of_same_context_can_coexist_when_opened_in_different_threads_and_no_root_scope_of_same_context_in_origin_thread()
+		public void Scopes_of_same_context_can_coexist_when_opened_in_different_threads_and_no_root_scope_of_same_context_in_parent_thread_exist()
 		{
 			var container = new WindsorContainer();
 			container.Register(Component
@@ -275,7 +273,7 @@ public void When_resolving_same_service_in_same_scope_several_times_should_retur
 		}
 
 		[Test]
-		public void Scopes_of_same_context_cannot_coexist_when_opened_in_different_threads_and_already_opened_in_origin_thread()
+		public void Scopes_of_same_context_cannot_coexist_when_opened_in_different_threads_and_already_opened_in_parent_thread()
 		{
 			using (new LifetimeScope<int>())
 			{
@@ -295,7 +293,7 @@ public void When_resolving_same_service_in_same_scope_several_times_should_retur
 		}
 
 		[Test]
-		public void Should_resolve_dependecy_in_child_threads_when_scope_of_another_context_is_opened_in_origin_thread()
+		public void Should_resolve_dependecy_in_child_threads_when_scope_of_another_context_is_opened_in_parent_thread()
 		{
 			var container = new WindsorContainer();
 			container.Register(Component
@@ -330,19 +328,6 @@ public void When_resolving_same_service_in_same_scope_several_times_should_retur
 					Assert.AreEqual(simpleService, compositeService.SimpleService);
 				}
 			}
-		}
-	}
-
-	public interface ISimpleService : IDisposable
-	{ }
-
-	public class SimpleServiceImpl : ISimpleService
-	{
-		public int TimesDisposed { get; set; }
-
-		public void Dispose()
-		{
-			TimesDisposed++;
 		}
 	}
 }

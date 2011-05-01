@@ -1,0 +1,47 @@
+# git ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+# For a project mostly in C, the following would be a good set of
+# exclude patterns (uncomment them if you want to use them):
+# *.[oa]
+# *~
+
+	
+
+Added InstallShield ignores for the build deployment. InstallShield is the new direction Microsoft is headed over Visual Studio Installer, so we've started using it on all new projects. This added line removes the SingleImage installation files. Other InstallShield types may include DVD distribution among others. You may want to add those directory names or just [Ee]xpress/ to prevent any InstallShield LE deployment files from getting into the repo.
+
+Here is our .gitignore for VS2010 C# projects using Install Shield LE with SingleImage deployments for the installer:
+
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+#Visual Studio files
+*.[Oo]bj
+*.exe
+*.pdb
+*.user
+*.csproj.user
+*.vspscc
+*.vssscc
+*.suo
+*.bak
+*.[Cc]ache
+*.log
+obj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+
+#Tooling
+_ReSharper*/
+*.resharper
+[Tt]est[Rr]esult*
+
+#Project files
+[Bb]uild/
+
+
+*/ContextualLifetimeScope.csproj.user
+
+
+
