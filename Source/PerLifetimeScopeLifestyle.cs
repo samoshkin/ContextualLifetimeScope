@@ -29,7 +29,7 @@ namespace ContextualLifetimeScope
 
 		public override bool Release(object instance)
 		{
-			LifetimeScope<TContext>.Store.TryRemove(this);
+			LifetimeScopeStore.Get<TContext>().TryRemove(this);
 			return base.Release(instance);
 		} 
 
@@ -40,7 +40,7 @@ namespace ContextualLifetimeScope
 
 		public override object Resolve(CreationContext context)
 		{
-			return LifetimeScope<TContext>.Store
+			return LifetimeScopeStore.Get<TContext>()
 				.GetOrAdd(this, lifestyleManager => new ComponentInstance(lifestyleManager, base.Resolve(context)))
 				.Instance;
 		}

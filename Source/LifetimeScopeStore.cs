@@ -12,13 +12,18 @@ namespace ContextualLifetimeScope
 
 		private readonly string _dataSlotKey;
 
-		public LifetimeScopeStore(Type context)
+		private LifetimeScopeStore(Type context)
 		{
 			Context = context;
 			_dataSlotKey = context.FullName;
 		}
 
 		public Type Context { get; private set; }
+
+		public static LifetimeScopeStore Get<TContext>()
+		{
+			return new LifetimeScopeStore(typeof(TContext));
+		}
 
 		/// <summary>
 		/// Gets object by the key, if exists, otherwise, creates object and associate it with the key
@@ -77,7 +82,7 @@ namespace ContextualLifetimeScope
 		}
 
 		/// <summary>
-		/// Closes scope and release associated data
+		/// Closes scope, releases associated data and frees CallContext data slot
 		/// </summary>
 		/// <remarks>
 		/// If item stored is IDisposable, call Dispose() method on it
@@ -92,8 +97,14 @@ namespace ContextualLifetimeScope
 				LogicalThreadAffinativeDictionary state;
 				VerifyScopeOpenness(true, out state);
 
-				ReleaseItems(state);
-				CallContext.FreeNamedDataSlot(_dataSlotKey);	
+				try
+				{
+					ReleaseItems(state);	
+				}
+				finally
+				{
+					CallContext.FreeNamedDataSlot(_dataSlotKey);		
+				}
 			}
 		}
 
